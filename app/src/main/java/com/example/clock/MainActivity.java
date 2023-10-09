@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         countDownTimer.start();
         isCountdownRunning = true;
         startPauseButton.setText("Pause");
-        iconImageReset.setEnabled(false); // Disable the reset button while the countdown is running
+        //iconImageReset.setEnabled(false); // Disable the reset button while the countdown is running
     }
 
     private void updateTimeTextView(int secondsRemaining) {
